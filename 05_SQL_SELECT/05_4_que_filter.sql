@@ -1,6 +1,6 @@
 /* QUERIES Filtern mit WHERE */
 
-/*
+/*/
     Eingrenzen/Filtern WHERE & AND/OR etc.
     Eingrenzen/Filtern WHERE & LIKE + Parameter
     Eingrenzen/Filtern WHERE & RegEx
@@ -10,7 +10,7 @@
 
 -- Eingrenzen/Filtern WHERE & AND/OR etc.
 -- Scharfe Suche
-/*
+/**/
 SELECT
 	ticker AS "SYM",
     c_name AS "Unternehmen",
@@ -21,9 +21,9 @@ SELECT
 FROM stocks.ccc
 
 -- Einzeldaten / Strings / numerisch
-#WHERE sector = "Communication Services" -- spez. Sektor
-#WHERE industry = "Media" -- spez. Branche
-WHERE payouts = 12 -- Wer zahlt monatlich?
+-- WHERE sector = "Communication Services" -- spez. Sektor
+WHERE industry = "Media" -- spez. Branche
+-- WHERE payouts = 12 -- Wer zahlt monatlich?
 
 -- Kombination durch AND
 #WHERE sector = "Communication Services" AND industry = "Entertainment"
