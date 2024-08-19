@@ -31,7 +31,9 @@ SELECT
 FROM stocks.ccc
 ORDER BY Branchen ASC
 ;
+*/
 
+/*
 SELECT
     count(DISTINCT industry) "Anzahl Branchen"
 FROM stocks.ccc

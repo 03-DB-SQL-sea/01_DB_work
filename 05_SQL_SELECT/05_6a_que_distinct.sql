@@ -1,7 +1,7 @@
 /*QUERIES - Distinct*/
 
 -- alle Sektoren
-/*
+/*/
 SELECT
     sector
 FROM stocks.ccc
@@ -42,6 +42,7 @@ ORDER BY payouts ASC
 */
 
 -- welche Unternehmen zahlen monatlich?
+/*
 SELECT
     industry Branche,
     c_name Unternehmen,
@@ -50,4 +51,4 @@ FROM stocks.ccc
 WHERE payouts = 12
 ORDER BY Branche ASC
 ;
-
+*/
